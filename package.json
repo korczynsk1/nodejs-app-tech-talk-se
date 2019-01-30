@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-summit2018-server",
+  "private": true,
+  "version": "0.0.0",
+  "description": "NodejsWebApp1",
+  "main": "server.js",
+  "author": {
+    "name": "ctsodev1"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.13.3",
+    "express-basic-auth": "^1.1.5",
+    "express-history-api-fallback": "^2.1.0",
+    "nocache": "^2.0.0",
+    "node-schedule": "^1.3.0",
+    "web-push": "^3.3.0"
+  },
+  "devDependencies": {}
+}

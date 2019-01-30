@@ -1,0 +1,129 @@
+{
+  "general": {
+    "app": {
+      "mainTitle": "Some event..."
+    }
+  },
+  "agenda": {
+    "days": [
+      {
+        "id": 1,
+        "date": "2018-10-18",
+        "timeSlots": [
+          {
+            "id": 101,
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "name": "Welcome Coffee",
+            "isBreak": true
+          },
+          {
+            "id": 102,
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "name": "Opening",
+            "isBreak": false,
+            "room": "Main Room"
+          },
+          {
+            "id": 103,
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "name": "Stream 1",
+            "streams": [1],
+            "isBreak": false,
+            "room": "Stream 1 Room"
+          },
+          {
+            "id": 104,
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "name": "Stream 2",
+            "streams": [2],
+            "isBreak": false,
+            "room": "Stream 2Room"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "date": "2018-10-19",
+        "timeSlots": [
+          {
+            "id": 105,
+            "startTime": "09:00",
+            "endTime": "10:00",
+            "name": "Welcome Coffee",
+            "isBreak": true
+          },
+          {
+            "id": 106,
+            "startTime": "10:00",
+            "endTime": "11:00",
+            "name": "Opening",
+            "isBreak": false,
+            "room": "Main Room"
+          },
+          {
+            "id": 107,
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "name": "Stream 1",
+            "streams": [1],
+            "isBreak": false,
+            "room": "Stream 1 Room"
+          },
+          {
+            "id": 108,
+            "startTime": "11:00",
+            "endTime": "12:00",
+            "name": "Stream 2",
+            "streams": [2],
+            "isBreak": false,
+            "room": "Stream 2Room"
+          }
+        ]
+      }
+    ],
+    "streams": [
+      {
+        "id": 1,
+        "name": "Stream 1",
+        "color": "#ff304c"
+      },
+      {
+        "id": 2,
+        "name": "Stream 2",
+        "color": "#0070ad"
+      }
+    ]
+  },
+  "workshopStreams": [
+    {
+      "id": 1,
+      "name": "Talk 1",
+      "description": "Talk 1 description",
+      "leaders": [1],
+      "room": "Some room"
+    },
+    {
+      "id": 2,
+      "name": "Talk 2",
+      "description": "Talk 2 description",
+      "leaders": [2],
+      "room": "Some room"
+    }
+  ],
+  "presenters": [
+    {
+      "id": 1,
+      "name": "Speaker 1"
+    },
+    {
+      "id": 2,
+      "name": "Speaker 2",
+      "position": "Software Developer",
+      "organisation": "Capgemini Poland"
+    }
+  ]
+}
