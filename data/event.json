@@ -4,7 +4,7 @@
       "mainTitle" : "Tech Talk with Capgemini Special Edition"
     }
   },
-  
+
   "agenda": {
     "days": [
       {
@@ -30,7 +30,7 @@
             "id": 103,
             "startTime": "09:15",
             "endTime": "10:15",
-            "name": "Where do you, JavaScript, go?",
+            "name": "Keep Betting On JavaScript",
             "presenters": [1],
             "room": "Plenum",
             "isBreak": false
@@ -42,7 +42,7 @@
             "name": "Serverless Java with Kubernetes",
             "presenters": [3],
             "room": "Java Room",
-            "streams": [1],
+            "stream": 1,
             "isBreak": false
           },
           {
@@ -52,11 +52,11 @@
             "name": "Stop building monolithic frontends!",
             "room": "JavaScript Room",
             "presenters": [4],
-            "streams": [2],
+            "stream": 2,
             "isBreak": false
           },
           {
-            "id": 102,
+            "id": 106,
             "startTime": "11:00",
             "endTime": "11:15",
             "name": "Coffee break",
@@ -64,67 +64,67 @@
             "isBreak": true
           },
           {
-            "id": 104,
+            "id": 107,
             "startTime": "11:15",
             "endTime": "11:45",
             "name": "Distributed system integration using Apache Camel and Spring Boot",
             "presenters": [6],
             "room": "Java Room",
-            "streams": [1],
+            "stream": 1,
             "isBreak": false
           },
           {
-            "id": 105,
+            "id": 108,
             "startTime": "11:15",
             "endTime": "11:45",
             "name": "JavaScript w cyberprzestrzeni hakerów",
             "room": "JavaScript Room",
             "presenters": [5],
-            "streams": [2],
+            "stream": 2,
             "isBreak": false
           },
           {
-            "id": 106,
+            "id": 109,
             "startTime": "11:45",
             "endTime": "12:15",
             "name": "Heal the code, make it a better place. Power of code review",
             "room": "Java Room",
             "presenters": [7],
-            "streams": [1],
+            "stream": 1,
             "isBreak": false
           },
           {
-            "id": 107,
+            "id": 110,
             "startTime": "11:45",
             "endTime": "12:15",
             "name": "Web Components czyli Angular, React i VanillaJS w jednym stali DOM-u",
             "room": "JavaScript Room",
             "presenters": [8],
-            "streams": [2],
+            "stream": 2,
             "isBreak": false
           },
           {
-            "id": 108,
+            "id": 111,
             "startTime": "12:15",
             "endTime": "12:00",
             "name": "Zastosowanie podejścia Consumer Driven Contracts w architekturze Mikroserwisów",
             "presenters": [9],
             "room": "Java Room",
-            "streams": [1],
+            "stream": 1,
             "isBreak": false
           },
           {
-            "id": 109,
+            "id": 112,
             "startTime": "12:15",
             "endTime": "13:00",
             "name": "Vue.js: Come on! Yet another JavaScript framework?!",
             "room": "JavaScript Room",
             "presenters": [10, 11],
-            "streams": [2],
+            "stream": 2,
             "isBreak": false
           },
           {
-            "id": 110,
+            "id": 113,
             "startTime": "13:00",
             "endTime": "14:00",
             "name": "Lunch break",
@@ -132,27 +132,27 @@
             "isBreak": true
           },
           {
-            "id": 111,
+            "id": 114,
             "startTime": "14:00",
             "endTime": "14:45",
             "name": "Zmiana kodowania ISO8859 na UTF8 - migracja bazy Oracle 12c",
             "room": "Java Room",
             "presenters": [12],
-            "streams": [1],
+            "stream": 1,
             "isBreak": false
           },
           {
-            "id": 112,
+            "id": 115,
             "startTime": "14:00",
             "endTime": "14:45",
             "name": "Wprowadzenie do tworzenia hybrydowych aplikacji mobilnych z zastosowaniem Ionic Framework",
             "presenters": [13],
             "room": "JavaScript Room",
-            "streams": [2],
+            "stream": 2,
             "isBreak": false
           },
           {
-            "id": 113,
+            "id": 116,
             "startTime": "14:45",
             "endTime": "15:45",
             "name": "I jeszcze jeden język...",
@@ -161,7 +161,7 @@
             "isBreak": false
           },
           {
-            "id": 114,
+            "id": 117,
             "startTime": "15:45",
             "endTime": "16:00",
             "name": "Closing",
