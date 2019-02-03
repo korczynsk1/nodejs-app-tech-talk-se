@@ -186,14 +186,45 @@
     ]
   },
 
-  "presenters": [
+  "talks": [
     {
       "id": 1,
-      "name": "Kyle Simpson"
+      "title": "Keep Betting On JavaScript",
+      "description": "Brendan Eich's famous quip, \"Always bet on JavaScript\", revels in JS's history of naysayers predicting that we'd eventually reach a point where JS couldn't grow to meet the demands of modern development; it turns out those have always been bad bets.\nIt's safe to say JS is no longer trying to prove itself. It has arrived.\nBut where is it headed, and what does that mean for us?",
+      "presenters": [1]
     },
     {
       "id": 2,
-      "name": "Jarek Ratajski"
+      "title": "I jeszcze jeden język...",
+      "description": "Nieważne jaki język znasz i w jakim frameworku piszesz, pewnie za rok dwa, może pięć  będziesz musiał się czegoś nowego nauczyć. To piękno, ale i przekleństwo pracy programisty.\nDlaczego tak jest? Dlaczego nie można po prostu nauczyć się jednej technologii, zrobić certyfikat i dojechać tak do emerytury. Poświęcając czas na inne hobby i rodzinę zamiast na ciągłe dokształcanie.\nA może się da?\nO ewolucji języków programowania. Czemu raczej nie piszemy w FORTRANIE? Komu przeszkadzał ALGOL? Dlaczego programowanie funkcyjne jest starsze niż assembler? I jak przy wszystkim wygląda krótka historia C++, Javy i  C#? Gdzie to zmierza? - i dlaczego nie do Scali :-) ? - o tym będzie ta opowieść.",
+      "presenters": [2]
+    },
+    {
+      "id": 3,
+      "title": "Zmiana kodowania ISO8859 na UTF8 - migracja bazy Oracle 12c",
+      "description": "Ze względu na rosnący zakres działania aplikacji, może się zdarzyć potrzeba migracji aplikacji do pełnego zestawu znaków, czyli UTF8 (głównie ze względu na mnogość obsługiwanych języków i znaków specjalnych). Co za tym idzie baza musi przejść podobny proces. W czasie mojej prezentacji postaram się przedstatawić ogólny zarys calego przedsięwzięcia, ale także  najciekawsze i najtrudniejsze problemy, z którymi należy się liczyć w czasie takiej operacji. Aplikacja Java połączona z bazą Oracle stanowi nie lada wyzwanie.",
+      "presenters": [12]
+    },
+    {
+      "id": 4,
+      "title": "Stop building monolithic frontends!",
+      "description": "Od dobrych już kilku lat budujemy aplikacje w oparciu o mikroserwisy. W pewnym momencie okazuje się, że, owszem, backend spełnia założenia tego sylu w architekturze, ale frontend to już monolit w czystym wydaniu. Mina architekta, gdy klient oświadcza, że nowy mikroserwis będzie realizowany przez nowego dostawcę... bezcenna.\nW trakcie prezentacji pokażę kilka podejść do projektowania frontendu w architekturze mikroserwisów. Co więcej, podzielę się rozwiązaniami i doświadczeniami z rzeczywistych projektów, które miałem okazję prowadzić. A wszystko to poparte przykładami w kodzie. Jedno jest pewne – nikt nie będzie się nudził!",
+      "presenters": [4]
+    }
+  ],
+
+  "presenters": [
+    {
+      "id": 1,
+      "name": "Kyle Simpson",
+      "description": "An evangelist of the Open Web, passionate about all things JavaScript. He writes, speaks, teaches, and contributes to OSS.",
+      "imgSrc": "assets/img/kyle-simpson.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jarek Ratajski",
+      "description": "Programowania nauczyłem się na komputerze C64 dysponującym przepastną ilością 64kb RAM (i komu to przeszkadzało?!). A od tego czasu przewinąłem się przez kilka języków programowania: C,C++, Java, JavaScript. Scala, oraz różnych dziwnych frameworków: Spring, JavaEE, JSF(niestety), AngularJS, React. Przez ostatnich wiele lat(wstyd pisać ile) byłem m.in programistą, szefem zespołu, architektem, ale też sprzedawcą i producentem filmowym :-). Pracowałem, dla banków, firm ubezpieczeniowych, a także próbowałem swoich sił jako Janusz Biznesu. Obecnie pracuje dla CSS Versicherung u krasnoludów, w mieście pod górą. Czasami prowadzę wykłady na konferencjach takich jak Devoxx, Voxxed days, Geecon, 4Developers, JDD oraz rozmaitych JUGach. Główny mój temat to walka z technologiami, które już dawno przestały być użyteczne, ale tego nie zauważyliście. Bo nie patrzycie uważnie!",
+      "imgSrc": "assets/img/jarek-ratajski.png"
     },
     {
       "id": 3,
@@ -201,7 +232,9 @@
     },
     {
       "id": 4,
-      "name": "Marek Matczak"
+      "name": "Marek Matczak",
+      "description": "Developer i architekt z piętnastoletnim doświadczeniem, specjalizujący się w rozwiązaniach webowych. Swoje pierwsze programistyczne kroki stawiał programując w BASICu na Atari 65XE, zapisując swoje programy dla potomnych na... taśmie magnetofonowej! Później programował również w takich językach, jak Pascal, C, C++, Java, a od kilku lat również JavaScript.",
+      "imgSrc": "assets/img/marek-matczak.jpg"
     },
     {
       "id": 5,
@@ -233,7 +266,9 @@
     },
     {
       "id": 12,
-      "name": "Konrad Kuna"
+      "name": "Konrad Kuna",
+      "description": "Zajmuje się administracją systemów informatycznych w praktyce. Doświadczony w temacie sprzętowej budowy systemu i jego wymagań  performance’owych. Od okolo 11 lat zajmuje się głównie administracją baz danych. Wcześniej bazy Microsoft MSSQL, a od 5 lat wyłącznie Oracle.",
+      "imgSrc": "assets/img/konrad-kuna.jpg"
     },
     {
       "id": 13,

@@ -411,6 +411,8 @@ MIT
 
 @angular/material/icon
 
+@angular/material/card
+
 @angular/material/button
 
 @angular/material/sidenav
